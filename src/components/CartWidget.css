@@ -1,0 +1,30 @@
+.cart-widget {
+    display: flex;
+    align-items: center;
+    background-color: #69f04e;
+    color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .cart-widget:active {
+    transform: scale(0.95);
+  }
+  
+  .cart-widget .badge {
+    background-color: #d9534f;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 50%;
+    margin-left: 5px;
+  }
+  
+  .brand-name {
+    color: #5cb85c;
+    font-weight: bold;
+  }
+  
